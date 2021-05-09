@@ -7,7 +7,7 @@ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.rel
 sudo apt update
 sudo apt install openjdk-8-jdk -y
 sudo apt install jenkins -y
-sudo apt install terraform
+sudo apt install terraform -y
 sudo systemctl start jenkins
 sudo systemctl status jenkins
 
